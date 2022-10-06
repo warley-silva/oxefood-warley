@@ -1,19 +1,17 @@
 package br.com.ifpe.oxefoodwarley.modelo.produto;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import br.com.ifpe.oxefoodwarley.util.entity.EntidadeAuditavel;
 import lombok.Getter;
 import lombok.Setter;
 
-import br.com.ifpe.oxefoodwarley.util.entity.EntidadeAuditavel;
-
 @Getter
 @Setter
-@AllArgsConstructor
-@NoArgsConstructor
 public class CategoriaProduto extends EntidadeAuditavel {
 	
+	private static final long serialVersionUID = -1056979035020019302L;
+
 	private String chaveEmpresa;
 	
 	private String descricao;
 }
+
